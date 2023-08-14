@@ -2,7 +2,7 @@
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    background-color: #e0c3fc;
+    background-color: #daf5fe;
     
 }
 
@@ -17,5 +17,5 @@
    font-size: 1.2rem;
     padding: 5px;
     text-decoration: none;
-    color: #757bc8;
+    color: #0ba9dd;
 }

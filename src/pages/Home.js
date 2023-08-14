@@ -1,12 +1,17 @@
-import React from 'react';
-//import Navbar from '../Components/Navbar';
+import React, { useState, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchProductsList } from "../redux/productsReducer";
 
 const Home = () => {
-  return (
-    <div>
-     hello
-    </div>
-  )
-}
+  const [productList, setProductList] = useState("");
+  const dispatch = useDispatch();
 
-export default Home
+  useEffect(() => {
+    dispatch(fetchProductsList()).then((data) => setProductList(data));
+  }, []);
+  console.log(productList);
+
+  return <div></div>;
+};
+
+export default Home;
