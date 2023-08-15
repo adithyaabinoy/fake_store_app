@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-between;
     background-color: #daf5fe;
-    
+   position: fixed;
+   top: 0;
 }
 
 .link_list {

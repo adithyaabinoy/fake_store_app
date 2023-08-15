@@ -1,0 +1,26 @@
+.cards {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ccc; 
+}
+
+.card_image {
+  margin: 20px auto;
+}
+
+.product_images {
+  width: 100px;
+  height: 100px;
+}
+
+.product_details {
+    padding: 2px 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.product_rating {
+  color: orange;
+}
