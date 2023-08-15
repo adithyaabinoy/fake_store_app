@@ -24,3 +24,16 @@
 .product_rating {
   color: orange;
 }
+
+.product_price {
+  color: green;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_title {
+  /* color: rgb(135, 167, 222); */
+  font-weight: 400;
+  color: #0ba9dd;
+}

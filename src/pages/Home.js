@@ -21,7 +21,7 @@ const Home = () => {
       image ={e.image}
       rating={e.rating.rate}
       title={e.title}
-      description = {e.description}
+      category = {e.category}
       price = {e.price}
       
       />)
