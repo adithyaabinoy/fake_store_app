@@ -18,6 +18,7 @@ const Card = ({ category, image, price, rating, title }) => {
         <p className="product_category">{category}</p>
         <p className="product_price">
           <span>₹ {price}</span>{" "}
+
           <span>
             <FontAwesomeIcon icon={faCartShopping} />
           </span>
