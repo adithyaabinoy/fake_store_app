@@ -1,0 +1,22 @@
+.Navbar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #daf5fe;
+   position: fixed;
+   top: 0;
+}
+
+.link_list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+.link_list li a {
+   font-size: 1.2rem;
+    padding: 5px;
+    text-decoration: none;
+    color: #0ba9dd;
+}
