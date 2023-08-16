@@ -1,0 +1,35 @@
+.cart_container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 3px solid #ccc;
+  margin: 15% 30px;
+}
+
+.cart_image {
+  width: 100px;
+  height: 100px;
+}
+
+.cart_btn {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+}
+
+.cart_btn button {
+  padding: 5px 10px;
+  color: #0ba9dd;
+  background-color: #daf5fe;
+  outline: none;
+  border: none;
+}
+
+.dlt_btn {
+  background-color: #eb2168bb;
+  outline: none;
+  border: none;
+  padding: 3px 10px;
+}
